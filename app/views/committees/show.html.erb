@@ -1,0 +1,15 @@
+<h1><%= @committee.name %></h1>
+
+<ul>
+
+  <% @committee.tickets.each do |ticket| %>
+    <li>
+      <p><%= ticket.title %></p>
+      <p><%= ticket.body %></p>
+      <p>Posted by: <%= ticket.user.name %></p>
+    </li>
+  <% end %>
+
+</ul>
+
+<%= link_to 'New ticket', new_committee_ticket_path(@committee) %>

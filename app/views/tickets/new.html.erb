@@ -1,0 +1,14 @@
+<h1><%= @ticket.committee.name %>: Add a new ticket</h1>
+
+<%= form_with model: [@ticket.committee, @ticket] do |f| %>
+  <div>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </div>
+  <div>
+    <%= f.label :body %>
+    <%= f.text_area :body %>
+  </div>
+  <%= f.hidden_field :user_id %>
+  <%= f.submit "Create ticket" %>
+<% end %>
