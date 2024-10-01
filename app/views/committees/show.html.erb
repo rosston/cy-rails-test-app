@@ -3,7 +3,7 @@
 <ul>
 
   <% @committee.tickets.each do |ticket| %>
-    <li>
+    <li id="ticket-<%= ticket.id %>">
       <p><%= ticket.title %></p>
       <p><%= ticket.body %></p>
       <p>Posted by: <%= ticket.user.name %></p>
