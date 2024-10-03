@@ -1,7 +1,4 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyText
-
-two:
-  name: MyText
+Pat:
+  name: 'Pat'

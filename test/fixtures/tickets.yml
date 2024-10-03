@@ -1,13 +1,7 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyText
-  body: MyText
-  user: one
-  committee: one
-
-two:
-  title: MyText
-  body: MyText
-  user: two
-  committee: two
+  title: 'Help!'
+  body: 'I need somebody'
+  user: Pat
+  committee: Board
