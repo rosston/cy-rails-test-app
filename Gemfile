@@ -48,8 +48,8 @@ gem "bootsnap", require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
-  # gem "cypress-rails", "0.8.0.rc1"
-  gem "cypress-rails", github: "azyzio/cypress-rails", branch: "rails72-readiness"
+  gem "cypress-rails", "0.8.0.rc1"
+  # gem "cypress-rails", github: "azyzio/cypress-rails", branch: "rails72-readiness"
 end
 
 group :development do
